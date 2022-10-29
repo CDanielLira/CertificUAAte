@@ -32,9 +32,9 @@ if ($band==1){
     # Luego redireccionamos a la pagina "Secreta"
     header("Location: secreta.php");
     }else{
-    # No coinciden, asi  que simplemente imprimimos un
-    # mensaje diciendo que es incorrecto
-        echo "El usuario o la contrasena son incorrectos";
-    }
+    htmlspecialchars($_SERVER['PHP_SELF']);
+    <div class="alert alert-danger" role="alert">
+        Usuario o contrasena no validos!
+    </div>
  
 ?>
