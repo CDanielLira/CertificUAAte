@@ -34,25 +34,25 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="Imgages/C++.png" class="d-block w-100" alt="..." height="300px">
+                                <img src="img/C++.png" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 style="color: black"><a href="">CERTIFICADO DE C++</a></h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="Imgages/JAVA.jpg" class="d-block w-100" alt="..." height="300px">
+                                <img src="img/JAVA.jpg" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 style="color: black"><a href="">CERTIFICADO DE JAVA</a></h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="Imgages/HTML.jpg" class="d-block w-100" alt="..." height="300px">
+                                <img src="img/HTML.jpg" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 style="color: black"><a href="">CERTIFICADO DE HTML</a></h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="Imgages/CSS.jpg" class="d-block w-100" alt="..." height="300px">
+                                <img src="img/CSS.jpg" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 style="color: black"><a href="">CERTIFICADO DE CSS</a></h5>
                                 </div>
@@ -128,12 +128,15 @@
                 </div>
             </div>
             <div class="img-mission">
-                <img src="Imgages/undraw_Code_thinking_re_gka2.png" alt="" class="img">
+                <img src="img/undraw_Code_thinking_re_gka2.png" alt="" class="img">
             </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <?php
+        include("Footer.html");
+    ?>
 </body>
 
 </html>
