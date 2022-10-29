@@ -9,6 +9,8 @@
     <?php
         include("header.html");
     ?>
+    <br>
+    <br>
     <form>
         <div class="form-group">
             <label for="exampleInputEmail1">Usuario</label>
