@@ -125,3 +125,48 @@
     color: white;
     display: flex;
 }
+
+nav.navbar{
+    background-color: black;
+}
+
+.form{
+    padding: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form fieldset{
+    display: block;
+      margin: 20px 1%;
+      margin-bottom: 20px;
+      padding: 0 auto;
+      padding: 15px 0;
+      border: 0;
+      border-top: 1px solid #DDD;
+      width: 98%;
+    
+}
+
+.form legend{
+    display: table; 
+     min-width: 0px;
+     max-width: 70%;
+     position: relative;
+     margin: auto;
+     padding: 5px 20px;
+     color: black;
+     font-size: 20px;
+     text-align: center;
+    box-shadow:
+       inset 0 -3em 3em rgba(255, 0, 0, 0.1),
+             0 0  0 2px rgb(235, 165, 165),
+             0.3em 0.3em 1em rgba(87, 0, 0, 0.3);
+}
+
+.form button{
+    background-color: #f83838;
+    border: #ff0000;
+}
