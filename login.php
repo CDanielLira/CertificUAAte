@@ -32,11 +32,12 @@ if ($band==1){
     # Luego redireccionamos a la pagina "Secreta"
     header("Location: secreta.php");
     }else{
-    include("header.html");
-    echo '<div class="alert alert-danger" role="alert">
-        Usuario o contrasena no validos!
-    </div>';
-    include("Footer.html");
-}
+        include("formlog.php");
+        if(isset($_GET["fallo"]) && $_GET["fallo"] == 'true')
+        {
+           echo "<div class="alert alert-danger" role="alert">
+         Usuario o contrasena no validos!
+     </div>";
+        }
  
 ?>
