@@ -123,4 +123,5 @@
 
 .logo{
     color: white;
+    display: flex;
 }
