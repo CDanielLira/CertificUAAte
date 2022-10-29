@@ -1,7 +1,7 @@
 <?php
  
 $usuario = $_POST["usuario"];
-$palabra_secreta = $_POST["palabra_secreta"];
+$palabra_secreta = $_POST["contra"];
 
  
 $file=fopen("cuentas.txt", "r");
@@ -32,9 +32,11 @@ if ($band==1){
     # Luego redireccionamos a la pagina "Secreta"
     header("Location: secreta.php");
     }else{
-    htmlspecialchars($_SERVER['PHP_SELF']);
-    <div class="alert alert-danger" role="alert">
+    include("header.html");
+    echo '<div class="alert alert-danger" role="alert">
         Usuario o contrasena no validos!
-    </div>
+    </div>';
+    include("Footer.html");
+}
  
 ?>
