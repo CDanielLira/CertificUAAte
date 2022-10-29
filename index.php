@@ -14,7 +14,7 @@
 
 <body>
     <?php
-        include "header.html"
+        include ("header.html");
     ?>
     <div class="first">
         <div class="grid">
