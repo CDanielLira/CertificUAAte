@@ -1,0 +1,21 @@
+.Bloque {
+
+    width: 88%;
+    padding: 25px;
+    margin: 25px auto;
+    border: solid 20px black;
+    background-color:dodgerblue;
+}
+
+.Cuerpo {
+
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.Datos{
+    
+    margin: 0 auto;
+    padding-right: 300px;
+    
+}
