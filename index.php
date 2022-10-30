@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bf93869655.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/style2.css">
 </head>
 
 <body>
@@ -161,7 +161,7 @@
                 </div>
             </section>
             <?php
-                include ("Footer.html");
+                include ("HTML/Footer.html");
             ?>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -169,7 +169,7 @@
     </div>
     <header>
        <?php
-        include ("header.html");
+        include ("HTML/header.html");
     ?>
         <h1>Verifica si sabes lo que un CUAATE </h1>
     </header>

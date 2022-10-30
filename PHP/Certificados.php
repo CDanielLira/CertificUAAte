@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="../CSS/style3.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                 <a href="Pago.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
             </div>
             <div class="image4">
-                <img src="img/undraw_JavaScript_frameworks_8qpc.png" alt="" width="600">
+                <img src="../img/undraw_JavaScript_frameworks_8qpc.png" alt="" width="600">
             </div>
 
         </div>
@@ -58,7 +58,7 @@
                 <a href="Pago.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
             </div>
             <div class="image4">
-                <img src="img/undraw_static_assets_rpm6.png" alt="" width="600">
+                <img src="../img/undraw_static_assets_rpm6.png" alt="" width="600">
             </div>
         </div>
     </div>

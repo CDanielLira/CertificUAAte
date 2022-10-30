@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="CSS/style3.css">
     <style>
         body {
             background: #000000;
@@ -18,7 +18,7 @@
 
 <body>
     <div class="card bg-dark text-white" style="margin: 50px;">
-        <img src="img/Portada.jpeg" class="card-img" style="border: 10%; height: 400px;">
+        <img src="../img/Portada.jpeg" class="card-img" style="border: 10%; height: 400px;">
         <div class="card-img-overlay">
             <h5 class="card-title">CERIFICUAATES</h5>
             <h7 class="card-text">Con esta pagina vas a poder conseguir diferentes certificados, con unos simples examenes de 8 preguntas, para que puedas demostrar como estudiante, trabajador o solo por gusto que si sabes programar</h7>
@@ -29,7 +29,7 @@
         <div class="row no-gutters">
             <div class="col-md-4">
                 <div class="contenedor">
-                    <img src="img/Estudiante.jpg" alt="..." style="height:190px; width:270px; border: 5px solid black; margin: 5px 5px;">
+                    <img src="../img/Estudiante.jpg" alt="..." style="height:190px; width:270px; border: 5px solid black; margin: 5px 5px;">
 
                     <div class="overlay">
                         <div class="text">Alumno</div>
@@ -47,7 +47,7 @@
         <div class="row no-gutters">
             <div class="col-md-4">
                <div class="contenedor">
-                    <img src="img/Progra.jpg" alt="..." style="height:190px; width:270px; border: 5px solid black; margin: 5px 5px;">
+                    <img src="../img/Progra.jpg" alt="..." style="height:190px; width:270px; border: 5px solid black; margin: 5px 5px;">
 
                     <div class="overlay">
                         <div class="text">Empleado</div>
@@ -66,7 +66,7 @@
         <div class="row no-gutters">
             <div class="col-md-4">
                <div class="contenedor">
-                    <img src="img/Trabajador.jpg" alt="..." style="height:190px; width:270px; border: 5px solid black; margin: 5px 5px;">
+                    <img src="../img/Trabajador.jpg" alt="..." style="height:190px; width:270px; border: 5px solid black; margin: 5px 5px;">
 
                     <div class="overlay">
                         <div class="text">Trabajador</div>
@@ -85,11 +85,11 @@
     </div>
     <header>
         <?php
-            include ("header.html");
+            include ("../HTML/header.html");
         ?>
     </header>
     <?php
-        include ("Footer.html");
+        include ("../HTML/Footer.html");
     ?>
 </body>
 

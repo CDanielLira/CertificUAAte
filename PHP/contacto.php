@@ -14,7 +14,7 @@
     ?>
     <div class="form">
         <div class="imgform">
-            <img src="img/Logo.png" alt="">
+            <img src="/img/Logo.png" alt="">
         </div>
         <div class="tabform">
             <fieldset form>
