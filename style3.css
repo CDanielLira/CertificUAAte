@@ -1,0 +1,89 @@
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    max-width: 1100%;
+    height: 100%;
+    margin: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    align-items: center;
+    height: 50vh;
+    background-image: url(img/above%203.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.texto{
+    grid-column: 2/8;
+    padding: 8px 24px;
+    background: #eee;
+    border-radius: 16px;
+    text-align: center;
+    font-family: big john;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    max-width: 1100%;
+    height: 100%;
+    margin: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    align-items: center;
+    height: 50vh;
+}
+
+
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    max-width: 1100%;
+    height: 100%;
+    margin: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    align-items: center;
+    height: 50vh;
+    background-image: url(img/C3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100%;
+    max-width: 1100%;
+    height: 100%;
+    margin: auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    align-items: center;
+    height: 50vh;
+}
+
+.image4{
+    width: 100%;
+    height: auto;
+    grid-column: 9/13;
+}
+.btn{
+    width: 130px;
+    background: black;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
