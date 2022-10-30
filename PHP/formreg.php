@@ -10,13 +10,23 @@
 <body>
     <?php
         include("header.html");
+        $valida = $_GET['valida'];
     ?>
+
     <br><br><br>
     <div class="form">
         <table>
             <th></th>
             <th class="tabform">
-                <fieldset>
+                <?php
+            if ($valida === "false") {
+                echo'<div class="alert alert-success" role="alert">
+                     Registro exitoso, ya puedes iniciar sesión.
+                    </div>
+                    <img src="img/okay.png" alt=""> <br>
+                    <a href="formlog.php"><button type="submit" class="btn btn-primary">Iniciar Sesión</button></a>';
+            }else{
+                echo'<fieldset>
                     <legend>Resgistrate</legend>
                     <form action="registro.php" method="post">
                         <div class="form-row">
@@ -26,7 +36,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Apellido(s)</label>
-                                <input type="email" class="form-control" name="apellido">
+                                <input type="text" class="form-control" name="apellido">
                             </div>
                         </div>
                         <div class="form-group">
@@ -49,10 +59,11 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Registrarse</button>
                     </form>
-                </fieldset>
+                </fieldset> ';
+            }
+        ?>   
             </th>
         </table>
-
     </div>
     <?php
         include("Footer.html");

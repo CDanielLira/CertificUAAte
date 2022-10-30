@@ -10,8 +10,8 @@ while(!feof($file)){
     $linea=fgets($file);
     if ($linea != ""){
       $aux=preg_split("/[\s,]+/",$linea);   
-      $user = $aux[0];
-      $contrasena = $aux[1];
+      $user = $aux[2];
+      $contrasena = $aux[3];
      
       if ($user===$usuario && $contrasena === $palabra_secreta){            
             $band=1; break;
@@ -30,14 +30,9 @@ if ($band==1){
     $_SESSION["compras"] = $micarrito;
 
     # Luego redireccionamos a la pagina "Secreta"
-    header("Location: secreta.php");
+    header("Location: http://localhost/cursophp/CertificUAAte-main/index.php");
     }else{
-        include("formlog.php");
-        if(isset($_GET["fallo"]) && $_GET["fallo"] == 'true')
-        {
-           echo "<div class="alert alert-danger" role="alert">
-         Usuario o contrasena no validos!
-     </div>";
-        }
+    header("Location: http://localhost/cursophp/CertificUAAte-main/formlog.php?valida=false");
+    }
  
 ?>
