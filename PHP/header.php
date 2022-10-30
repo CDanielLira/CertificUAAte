@@ -50,8 +50,6 @@ session_start();
                 if (empty($_SESSION["usuario"])) {
                     echo '<a class="nav-link" href="PHP/formlog.php" style="color: white">    INICIAR SESIÓN    </a>';
                 }else{
-                    echo'
-                '; 
                     $today = getdate();
                     $hora=$today["hours"];
                     if ($hora<6 ) {
