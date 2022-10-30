@@ -170,9 +170,6 @@
     ?>
         <h1>Parallax Effect</h1>
     </header>
-    <?php
-        include("Footer.html");
-    ?>
 </body>
 
 </html>
