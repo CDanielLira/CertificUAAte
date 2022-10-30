@@ -48,22 +48,31 @@ session_start();
         <?php
                 echo '<button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">';
                 if (empty($_SESSION["usuario"])) {
-                    echo '    INICIAR SESIÓN    ';
+                    echo '<button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">    INICIAR SESIÓN    </a></button>';
                 }
+                echo'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                '; 
                     $today = getdate();
                     $hora=$today["hours"];
                     if ($hora<6) {
-                        echo(" Es muy temprano ".$_SESSION["usuario"]);
+                    echo(" Es muy temprano ".$_SESSION["usuario"]);
+                    exit();
+                    }elseif($hora<12){
+                    echo(" Buenos días ".$_SESSION["usuario"]);
+                    exit();
+                    }elseif($hora<=17){
+                    echo("Buenas Tardes ".$_SESSION["usuario"]);
                         exit();
-                        }elseif($hora<12){
-                        echo(" Buenos días ".$_SESSION["usuario"]);
-                        exit();
-                        }elseif($hora<=17){
-                        echo("Buenas Tardes ".$_SESSION["usuario"]);
-                            exit();
-                        }elseif($hora<=20){ echo("Buenas Noches ".$_SESSION["usuario"]); }
-                    echo'</a></button>';
-                
+                    }elseif($hora<=20){ echo("Buenas Noches ".$_SESSION["usuario"]); }
+                echo'
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                    <a class="nav-link" href="../cerrar.php">  Cerrar sesión  <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>';
             ?>
             
         </div>
