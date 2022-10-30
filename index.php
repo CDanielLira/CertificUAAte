@@ -20,7 +20,7 @@
                 <div class="textos-hero">
                     <h1 class="weigt-600">
                         Si lo imaginas lo puedes crear<span class="weight-400"></span></h1>
-                    <p class="parrafo">En CERTIFICUAATE somos una empresa que se preocupa por los futuros desarrolladores ofreciendo certificaciones y cursos de manera gratuita para que juntos desarrollemos el mundo en el que vivimos </p>
+                    <p style="color: black";>En CERTIFICUAATE somos una empresa que se preocupa por los futuros desarrolladores ofreciendo certificaciones y cursos de manera gratuita para que juntos desarrollemos el mundo en el que vivimos </p>
                     <a href="" class="cta">Conocenos</a>
                 </div>
                 <div class="img-hero">
