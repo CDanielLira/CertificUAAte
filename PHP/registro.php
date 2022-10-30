@@ -7,11 +7,11 @@
     $usuario = $_POST["usuario"];
     $contra = $_POST["pass"];
      
-    $file = fopen("cuentas.txt","a+");
+    $file = fopen("../cuentas.txt","a+");
      
     fwrite($file, $nom." ".$email." ".$usuario." ".$contra." false 0.0\n");
     
     fclose($file);
     $valida =true;
-    header("Location: http://localhost/cursophp/CertificUAAte-main/formreg.php?valida=true");
+    header("Location: http://localhost/cursophp/CertificUAAte-main/PHP/formreg.php?valida=true");
 ?>

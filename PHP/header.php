@@ -45,22 +45,24 @@ session_start();
             <h5>CERTIFICUAATE</h5>
         </div>
         <div>
-           <?php
+        <?php
                 echo '<button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">';
                 if (empty($_SESSION["usuario"])) {
-                    echo '    INICIAR SESIÓN    </a></button>';
-                }else{
+                    echo '    INICIAR SESIÓN    ';
+                }
                     $today = getdate();
                     $hora=$today["hours"];
                     if ($hora<6) {
-                    echo(" Es muy temprano ".$_SESSION["usuario"]);
-                    }elseif($hora<12){
-                    echo(" Buenos días ".$_SESSION["usuario"]);
-                    }elseif($hora<=18){
-                    echo("Buenas Tardes ".$_SESSION["usuario"]);
-                    }else{ echo("Buenas Noches ".$_SESSION["usuario"]); }
-                }
-                echo'</a></button>';
+                        echo(" Es muy temprano ".$_SESSION["usuario"]);
+                        exit();
+                        }elseif($hora<12){
+                        echo(" Buenos días ".$_SESSION["usuario"]);
+                        exit();
+                        }elseif($hora<=17){
+                        echo("Buenas Tardes ".$_SESSION["usuario"]);
+                            exit();
+                        }elseif($hora<=20){ echo("Buenas Noches ".$_SESSION["usuario"]); }
+                    echo'</a></button>';
                 
             ?>
             

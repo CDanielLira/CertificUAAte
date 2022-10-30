@@ -45,7 +45,7 @@
                         </div>
                         <div class="form-group">
                             <label for="inputAddress2">Email (segundario)</label>
-                            <input type="emial" class="form-control" placeholder="example2@example2.com" name="correo2">
+                            <input type="email" class="form-control" placeholder="example2@example2.com" name="correo2">
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">

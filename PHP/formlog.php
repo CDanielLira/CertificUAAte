@@ -16,24 +16,52 @@
         <table >
             <th></th>
             <th class="tabform">
-                <fieldset>
-                    <legend>Inicio de sesión</legend>
-                    <form action="login.php" method="post">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Usuario</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="usuario">
-                            <small id="emailHelp" class="form-text text-muted">La información proporcionada es solo tuya.</small>
+               <?php
+                    if ($valida === "false"){
+                        echo '<div class="alert alert-danger" role="alert">
+                          A simple danger alert—check it out!
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" name="contra">
-                        </div>
-                        <div class="form-group">
-                            <a href="formreg.php" style="color: black;">¿Aún no tienes cuenta?</a>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-                    </form>
-                </fieldset>
+                        <fieldset>
+                            <legend>Inicio de sesión</legend>
+                            <form action="login.php" method="post">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Usuario</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="usuario">
+                                    <small id="emailHelp" class="form-text text-muted">La información proporcionada es solo tuya.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" name="contra">
+                                </div>
+                                <div class="form-group">
+                                    <a href="formreg.php" style="color: black;">¿Aún no tienes cuenta?</a>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                            </form>
+                        </fieldset>
+                                ';
+
+                    }else{
+                        echo'<fieldset>
+                                <legend>Inicio de sesión</legend>
+                                <form action="login.php" method="post">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Usuario</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="usuario">
+                                        <small id="emailHelp" class="form-text text-muted">La información proporcionada es solo tuya.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contraseña</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" name="contra">
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="formreg.php" style="color: black;">¿Aún no tienes cuenta?</a>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                                </form>
+                            </fieldset>';
+                    }
+                ?>
             </th>
         </table>
 
