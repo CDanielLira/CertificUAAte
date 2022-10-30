@@ -46,26 +46,25 @@ session_start();
         </div>
         <div>
         <?php
-                echo '<button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">';
+            echo'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">';
                 if (empty($_SESSION["usuario"])) {
-                    echo '<button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">    INICIAR SESIÓN    </a></button>';
-                }
-                echo'<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    echo '<a class="nav-link" href="PHP/formlog.php" style="color: white">    INICIAR SESIÓN    </a>';
+                }else{
+                    echo'
                 '; 
                     $today = getdate();
                     $hora=$today["hours"];
-                    if ($hora<6) {
+                    if ($hora<6 ) {
                     echo(" Es muy temprano ".$_SESSION["usuario"]);
-                    exit();
-                    }elseif($hora<12){
+                    }elseif($hora<12 && $hora<17){
                     echo(" Buenos días ".$_SESSION["usuario"]);
-                    exit();
-                    }elseif($hora<=17){
+                    }elseif($hora<=17 && $hora<20){
                     echo("Buenas Tardes ".$_SESSION["usuario"]);
-                        exit();
-                    }elseif($hora<=20){ echo("Buenas Noches ".$_SESSION["usuario"]); }
-                echo'
-                </button>
+                    }elseif($hora<=20 && $hora<24){ echo("Buenas Noches ".$_SESSION["usuario"]); }
+                
+                }echo'</button>';
+                if (!empty($_SESSION["usuario"])) {
+                    echo'
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
@@ -73,6 +72,8 @@ session_start();
                         </li>
                     </ul>
                 </div>';
+                }
+                
             ?>
             
         </div>
