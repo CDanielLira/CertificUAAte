@@ -13,7 +13,7 @@
                     </head> 
                     <body> 
                     <h1>Disculpa ' .$nombre .', trabajamos en ello.</h1> 
-                        <p>Gracias ´por ponerte en contacto con nosotros </p>
+                        <p>Gracias por ponerte en contacto con nosotros </p>
                         <p>Serás atendido a la brevedad </p>
                         <p>Núm tel: 4491472589</p>
                         <br><br>
