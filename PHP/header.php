@@ -68,7 +68,7 @@ session_start();
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                    <a class="nav-link" href="../cerrar.php">  Cerrar sesión  <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="PHP/cerrar.php">  Cerrar sesión  <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>';
