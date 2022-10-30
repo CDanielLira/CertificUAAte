@@ -67,11 +67,11 @@
     
     <header>
     <?php
-            include ("header.html");
+            include ("../PHP/header.php");
         ?>
     </header>
     <?php
-        include ("Footer.html");
+        include ("../HTML/Footer.html");
     ?>
     
 </body>

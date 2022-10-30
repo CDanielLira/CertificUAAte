@@ -9,7 +9,7 @@
 
 <body>
     <?php
-        include("header.html");
+        include("header.php");
         $valida = $_GET['valida'];
     ?>
 
@@ -66,7 +66,7 @@
         </table>
     </div>
     <?php
-        include("Footer.html");
+        include("../HTML/Footer.html");
     ?>
 </body>
 

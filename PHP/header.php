@@ -16,32 +16,32 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../index.php">  INICIO  <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">  INICIO  <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                          CERTIFICACION
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../PHP/Certificados.php">HTML</a>
-                        <a class="dropdown-item" href="../PHP/Certificados.php">C++</a>
-                        <a class="dropdown-item" href="../PHP/Certificados.php">JAVA</a>
-                        <a class="dropdown-item" href="../PHP/Certificados.php">CSS</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">HTML</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">C++</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">JAVA</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">CSS</a>
                     </div>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#">   CONTACTANOS    </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../PHP/AcercaDe.php">   SOBRE DE   </a>
+                    <a class="nav-link" href="PHP/AcercaDe.php">   SOBRE DE   </a>
                 </li>
             </ul>
         </div>
         <div class="logo">
-            <img src="img/LogoINV.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="./img/LogoINV.png" width="30" height="30" class="d-inline-block align-top" alt="">
             <h5>CERTIFICUAATE</h5>
         </div>
-        <button type="button" class="btn btn-black"><a class="nav-link" href="../PHP/formlog.php" style="color: white">
+        <button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">
                INICIAR SESIÓN    </a></button>
     </nav>
 </body>

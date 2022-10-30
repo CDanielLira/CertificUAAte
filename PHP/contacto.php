@@ -10,7 +10,7 @@
 
 <body>
     <?php
-        include("header.html");
+        include("header.php");
     ?>
     <div class="form">
         <div class="imgform">
@@ -61,7 +61,7 @@
         </table>
     </div>
     <?php
-        include("Footer.html");
+        include("../HTML/Footer.html");
     ?>
 </body>
 

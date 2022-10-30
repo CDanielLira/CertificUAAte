@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -85,7 +85,7 @@
     </div>
     <header>
         <?php
-            include ("../HTML/header.html");
+            include ("../PHP/header.php");
         ?>
     </header>
     <?php

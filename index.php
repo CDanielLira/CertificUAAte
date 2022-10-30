@@ -169,7 +169,7 @@
     </div>
     <header>
        <?php
-        include ("HTML/header.html");
+        include ("PHP/header.php");
     ?>
         <h1>Verifica si sabes lo que un CUAATE </h1>
     </header>
