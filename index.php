@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -171,7 +171,7 @@
        <?php
         include ("header.html");
     ?>
-        <h1>Parallax Effect</h1>
+        <h1>Verifica si sabes lo que un CUAATE </h1>
     </header>
 </body>
 

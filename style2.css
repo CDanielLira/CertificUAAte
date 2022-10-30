@@ -35,6 +35,9 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 header,
@@ -50,7 +53,7 @@ header::before {
     right: 0;
     bottom: 0;
     display: block;
-    background: url(img/above.jpg);
+    background: url(img/above%203.jpg);
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
