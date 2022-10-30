@@ -1,3 +1,6 @@
+<?
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">  INICIO  <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php">  INICIO  <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -33,16 +36,36 @@
                     <a class="nav-link" href="#">   CONTACTANOS    </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="PHP/AcercaDe.php">   SOBRE DE   </a>
+                    <a class="nav-link" href="../PHP/AcercaDe.php">   SOBRE DE   </a>
                 </li>
             </ul>
         </div>
         <div class="logo">
-            <img src="./img/LogoINV.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="img/LogoINV.png" width="30" height="30" class="d-inline-block align-top" alt="">
             <h5>CERTIFICUAATE</h5>
         </div>
-        <button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">
-               INICIAR SESIÓN    </a></button>
+        <div>
+           <?php
+                echo '<button type="button" class="btn btn-black"><a class="nav-link" href="PHP/formlog.php" style="color: white">';
+                if (empty($_SESSION["usuario"])) {
+                    echo '    INICIAR SESIÓN    </a></button>';
+                }else{
+                    $today = getdate();
+                    $hora=$today["hours"];
+                    if ($hora<6) {
+                    echo(" Es muy temprano ".$_SESSION["usuario"]);
+                    }elseif($hora<12){
+                    echo(" Buenos días ".$_SESSION["usuario"]);
+                    }elseif($hora<=18){
+                    echo("Buenas Tardes ".$_SESSION["usuario"]);
+                    }else{ echo("Buenas Noches ".$_SESSION["usuario"]); }
+                }
+                echo'</a></button>';
+                
+            ?>
+            
+        </div>
+        
     </nav>
 </body>
 </html>
