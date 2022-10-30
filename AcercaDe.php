@@ -60,4 +60,13 @@
             </div>
         </div>
     </div>
-</body></html>
+    <header>
+        <?php
+            include ("header.html");
+        ?>
+    </header>
+    <?php
+        include ("Footer.html");
+    ?>
+</body>
+</html>
