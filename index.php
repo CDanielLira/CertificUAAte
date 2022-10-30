@@ -11,12 +11,6 @@
     <script src="https://kit.fontawesome.com/bf93869655.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style2.css">
-    <style>
-        [class^="fa"] {
-            font-size: 15px;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body>
