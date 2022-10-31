@@ -38,25 +38,25 @@ session_start();
                             <div class="carousel-item active">
                                 <img src="img/C++.png" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5 style="color: black"><a href="PHP/Pagina de C++.php">CERTIFICADO DE C++</a></h5>
+                                    <h5 style="color: black"><a href="PHP/Certificacion.php">CERTIFICADO DE C++</a></h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="img/JAVA.jpg" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5 style="color: black"><a href="PHP/Pagina de JAVA.php">CERTIFICADO DE JAVA</a></h5>
+                                    <h5 style="color: black"><a href="PHP/Certificacion.php">CERTIFICADO DE JAVA</a></h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="img/HTML.jpg" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5 style="color: black"><a href="PHP/Pagina de HTML.php">CERTIFICADO DE HTML</a></h5>
+                                    <h5 style="color: black"><a href="PHP/Certificacion.php">CERTIFICADO DE HTML</a></h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="img/CSS.jpg" class="d-block w-100" alt="..." height="300px">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5 style="color: black"><a href="PHP/Pagina de CSS.php">CERTIFICADO DE CSS</a></h5>
+                                    <h5 style="color: black"><a href="PHP/Certificacion.php">CERTIFICADO DE CSS</a></h5>
                                 </div>
                             </div>
                         </div>
