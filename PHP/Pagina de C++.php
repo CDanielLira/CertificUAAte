@@ -29,6 +29,10 @@
         <img src="img/C++.png" class="card-img" alt="..." height="350px">
         <div class="card-img-overlay" style="border: solid black 3px;">
             <h5 class="card-title" style="text-align: center">CONSIGUE TU CERTIFICADO DE C++ AQUI</h5>
+            <h3>Certificacion de C#</h3>
+            <p>Al estar lo mas actualizado posible en este lenguaje, garantizas que tienes una base solida de conocimentos logicos que te respalda</p>
+            <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
+            <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
         </div>
     </div>
     <div>

@@ -29,6 +29,10 @@
     <h5 class="card-title">HTML</h5>
     <p class="card-text">EL CERTIFICADO DE HTML TODAVIA ESTA EN CURSO </p>
     <h3>GRACIAS POR VISITAR NUESTRA PAGINA</h3>
+    <p>HTML es un lenguaje de marcado que usa una sintaxis o notación especial para describir la estructura de una página web al navegador. Los elementos HTML generalmente tienen etiquetas de apertura y cierre que rodean y dan sentido al contenido.
+    En esta Certificación de Diseño Web Responsivo, aprenderás los lenguajes que los desarrolladores utilizan para construir páginas web: HTML (lenguaje de marcado de hipertexto) para el contenido</p>
+    <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
+    <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
   </div>
   <img src="img/HTML.jpg" class="card-img-bottom" alt="..." height="350px;">
 </div>

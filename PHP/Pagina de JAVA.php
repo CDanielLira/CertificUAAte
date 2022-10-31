@@ -29,6 +29,10 @@
     <h5 class="card-title">JAVA</h5>
     <p class="card-text">EL CERTIFICADO DE JAVA TODAVIA ESTA EN CURSO </p>
     <h3>GRACIAS POR VISITAR NUESTRA PAGINA</h3>
+    <p>Java, es utilizado desde móviles hasta electrodomésticos por lo que se convierte en uno de los lenguajes más utilizados en la actualidad a nivel mundial. Conocer y manejar este lenguaje informático te permitirá crear aplicaciones y procesos en una diversa gama de dispositivos.
+    Con los conocimientos impartidos por Netec usted podrá aportar rendimiento, seguridad y estabilidad a las aplicaciones, podrá además minimizar costos de implementación, monitoreo y mantenimiento</p>
+    <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
+    <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
   </div>
   <img src="img/JAVA.jpg" class="card-img-bottom" alt="..." height="350px;">
 </div>

@@ -29,6 +29,10 @@
     <h5 class="card-title">CSS</h5>
     <p class="card-text">EL CERTIFICADO DE CSS TODAVIA ESTA EN CURSO </p>
     <h3>GRACIAS POR VISITAR NUESTRA PAGINA</h3>
+    <p>El conocimiento es poder, especialmente en el mercado de trabajo actual. Documentación de sus habilidades le permite avanzar en su carrera, o ayudarle a comenzar una nueva.
+    Con este curso de CSS3 aprenderás a darle un aspecto único, personalizado y más atractivo tus páginas web por medio de la creación de animaciones y de tus propios efectos interactivos</p>
+    <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
+    <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
   </div>
   <img src="img/CSS.jpg" class="card-img-bottom" alt="..." height="350px;">
 </div>
