@@ -26,10 +26,10 @@ session_start();
                          CERTIFICACION
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="PHP/Certificacion.php">HTML</a>
-                        <a class="dropdown-item" href="PHP/Certificacion.php">C++</a>
-                        <a class="dropdown-item" href="PHP/Certificacion.php">JAVA</a>
-                        <a class="dropdown-item" href="PHP/Certificacion.php">CSS</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">HTML</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">C++</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">JAVA</a>
+                        <a class="dropdown-item" href="PHP/Certificados.php">CSS</a>
                     </div>
                 </li>
                 <li class="nav-item active">
