@@ -274,7 +274,7 @@
 
     }
             
-    require "vista.examen.php";
+    require "examenesss.php";
     
   ?>
   
