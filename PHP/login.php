@@ -28,9 +28,9 @@ if ($band==1){
     $_SESSION["usuario"] = $usuario;
 
     # Luego redireccionamos a la pagina "Secreta"
-    header("Location: http://localhost/CertificUAAte-main/CertificUAAte-main/");
+    header("Location: http://localhost/CertificUAAte-main/");
     }else{
-    header("Location: ttp://localhost/CertificUAAte-main/CertificUAAte-main/PHP/formlog.php?valida=false);
+    header("Location: http://localhost/CertificUAAte-main/PHP/formlog.php?valida=false");
     }
  
 ?>
