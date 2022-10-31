@@ -31,7 +31,7 @@ session_start();
                     Con los conocimientos impartidos por Netec usted podrá aportar rendimiento, seguridad y estabilidad a las aplicaciones, podrá además minimizar costos de implementación, monitoreo y mantenimiento</p>
                 <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
                 <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
-                <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
+                <a href="examen.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
             </div>
             <div class="image4">
                 <img src="../img/undraw_JavaScript_frameworks_8qpc.png" alt="" width="600">

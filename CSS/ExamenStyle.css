@@ -1,0 +1,31 @@
+#preg {
+    color: black;
+    font-weight: bold;
+}
+
+form {
+    margin-left: 7%;
+    margin-right: 5%;
+    background-color: white;
+    padding-left: 25%;
+}
+
+.titulo {
+    margin-left: 7%;
+    margin-right: 5%;
+    font-family: fantasy;
+    text-align: center;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pregresp {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
