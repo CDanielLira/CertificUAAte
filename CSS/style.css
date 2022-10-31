@@ -172,10 +172,13 @@ nav.navbar{
 }
 
 .form{
-    padding: 40px;
-    display: grid;
+    padding: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 500px;
+    
 }
 
 .form fieldset{
@@ -212,5 +215,9 @@ nav.navbar{
 }
 
 .tabform{
-    width: 10vh;
+    margin-top: 20px;
+}
+
+.cont{
+    height: 800px;
 }

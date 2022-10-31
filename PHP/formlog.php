@@ -10,6 +10,7 @@
 <body>
     <?php
         include("../PHP/header.php");
+        $valida = $_GET['valida'];
     ?>
     <br><br><br>
     <div class="form">
