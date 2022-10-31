@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+
 if (empty($_SESSION["usuario"])) {
     header("Location: http://localhost/cursophp/CertificUAAte-main/PHP/formlog.php");
     exit();
