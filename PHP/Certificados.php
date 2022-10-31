@@ -31,7 +31,7 @@ session_start();
                     Con los conocimientos impartidos por Netec usted podrá aportar rendimiento, seguridad y estabilidad a las aplicaciones, podrá además minimizar costos de implementación, monitoreo y mantenimiento</p>
                 <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
                 <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
-                <a href="Pago.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
+                <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
             </div>
             <div class="image4">
                 <img src="../img/undraw_JavaScript_frameworks_8qpc.png" alt="" width="600">
@@ -47,7 +47,7 @@ session_start();
                     En esta Certificación de Diseño Web Responsivo, aprenderás los lenguajes que los desarrolladores utilizan para construir páginas web: HTML (lenguaje de marcado de hipertexto) para el contenido</p>
                 <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
                 <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
-                <a href="Pago.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
+                <a href="P" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@ session_start();
                     Con este curso de CSS3 aprenderás a darle un aspecto único, personalizado y más atractivo tus páginas web por medio de la creación de animaciones y de tus propios efectos interactivos</p>
                 <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
                 <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
-                <a href="Pago.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
+                <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
             </div>
             <div class="image4">
                 <img src="../img/undraw_static_assets_rpm6.png" alt="" width="600">
