@@ -19,7 +19,7 @@ session_start();
                 <p>Al estar lo mas actualizado posible en este lenguaje, garantizas que tienes una base solida de conocimentos logicos que te respalda</p>
                 <p>Consta de 8 simples preguntas en un tiempo de 10 min en el que para aprobar deberas contestar correctamente al menos cinco de ellas.</p>
                 <p>El costo es de 50 pesos y esta disponible siempre que se quiera aplicar.</p>
-                <a href="Pago.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
+                <a href="DanisPago.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comenzar</a>
             </div>
         </div>
     </div>

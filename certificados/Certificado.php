@@ -1,7 +1,12 @@
 <?php
 
-    $Name = 'David Miguel Esparza Segovia';
-    $Curso = 'Programacion Web II';
+    session_start();
+
+
+    $Name1 = $_SESSION["Nombre"];
+    $Name1 = strtr($Name1, "_", " ");
+    $Name = $Name1;
+    $Curso = 'Curso de C++';
     $Fecha = '20/10/2022';
     $Instructor = 'Cecilia Gomez Morin';
 ?>
