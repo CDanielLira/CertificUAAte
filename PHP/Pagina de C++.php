@@ -50,7 +50,7 @@
     </a>
     <header>
         <?php
-            include ("header.html");
+            include ("header.php");
         ?>
     </header>
     <?php
