@@ -35,7 +35,7 @@
                 $myMail->isHTML();
                 $myMail->Body=$mensaje;
                 if($myMail->send()){
-                    echo "<div><h1>Correo enviado correctamente</h1></div>";
+                    header("Location: http://localhost/cursophp/CertificUAAte-main/PHP/contacto.php?valida=false");
                 }else{
                     $error = $myMail->ErrorInfo;
                     echo "<div><h4>Error, no se ha enviado el email: $error </h4></div>";

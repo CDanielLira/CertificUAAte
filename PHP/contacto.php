@@ -15,46 +15,57 @@ session_start();
 <body>
     <?php
         include("header.php");
+        $valida = $_GET['valida'];
     ?>
     <div class="form">
-        <div class="imgform">
-            <img src="/img/Logo.png" alt="">
+           <?php
+                if($valida === "false"){
+                    echo '<h1 style="color: black; text-align: center; margin: 10px;">SE A ENVIADO EL CORREO CORRECTAMENTE</h1>
+                    <img src="../img/Paloma.png" alt="" style="display:block;
+                        margin:auto;">
+                    <h1 style="color: black; text-align: center; margin: 10px;">GRACIAS POR TU COMENTARIO</h1>
+                    <a href="../index.php"><button type="submit" class="btn btn-primary">Regresar</button></a>
+                    </div>';
+                }else{
+                    echo'
+                    <div class="imgform">
+            <img src="../img/Logo.png" alt="">
         </div>
         <div class="tabform">
-            <fieldset form>
-                <legend>Contactanos</legend>
-                <form action="email.php" method="post">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label>Nombre(s)</label>
-                            <input type="text" class="form-control" name="nombre">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputState">Motivo</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Motivo</option>
-                                <option value="">Problemas de pago</option>
-                                <option value="">Olvide mi contraseña</option>
-                                <option value="">Fallos en páginas</option>
-                                <option value="">Reenbolso</option>
-                                <option value="">Ayuda personalizada</option>
-                            </select>
-                        </div>
+                    <fieldset form>
+                        <legend>Contactanos</legend>
+                        <form action="email.php" method="post">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Nombre(s)</label>
+                                    <input type="text" class="form-control" name="nombre">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputState">Motivo</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Motivo</option>
+                                        <option value="">Problemas de pago</option>
+                                        <option value="">Olvide mi contraseña</option>
+                                        <option value="">Fallos en páginas</option>
+                                        <option value="">Reenbolso</option>
+                                        <option value="">Ayuda personalizada</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Email</label>
+                                <input type="email" class="form-control" placeholder="example@example.com" name="correo">
+                            </div>
+                            <div class="form-row">
+                            <div class="form-group col-md-6">
+                                    <label for="inputCity">Usuario</label>
+                                    <input type="text" class="form-control" name="usuario">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Contactar</button>
+                        </form>
+                    </fieldset>
                     </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Email</label>
-                        <input type="email" class="form-control" placeholder="example@example.com" name="correo">
-                    </div>
-                    <div class="form-row">
-                    <div class="form-group col-md-6">
-                            <label for="inputCity">Usuario</label>
-                            <input type="text" class="form-control" name="usuario">
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Contactar</button>
-                </form>
-            </fieldset>
-        </div>
         <table>
             <th>
                 
@@ -63,6 +74,9 @@ session_start();
 
             </th>
         </table>
+                    ';
+                }
+            ?>
     </div>
     <?php
         include("../HTML/Footer.html");
