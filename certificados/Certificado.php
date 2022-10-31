@@ -2,13 +2,14 @@
 
     session_start();
 
-
+    $today = getdate();
     $Name1 = $_SESSION["Nombre"];
     $Name1 = strtr($Name1, "_", " ");
     $Name = $Name1;
     $Curso = 'Curso de C++';
-    $Fecha = '20/10/2022';
-    $Instructor = 'Cecilia Gomez Morin';
+    $Fecha1 = $today['mday']."/".$today['mon']."/".$today['year'];
+    $Fecha = $Fecha1;
+    $Instructor = 'CERTIFICUUATE';
 ?>
 
 <html lang="es">
