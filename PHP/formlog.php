@@ -20,7 +20,7 @@
                <?php
                     if ($valida === "false"){
                         echo '<div class="alert alert-danger" role="alert">
-                          A simple danger alert—check it out!
+                          Usuario o contraseña incorrectos!
                         </div>
                         <fieldset>
                             <legend>Inicio de sesión</legend>
