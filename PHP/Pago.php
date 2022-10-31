@@ -107,30 +107,3 @@ session_start();
 </body>
 
 </html>
-
-<?php 
-
-    // VARIABLES DEL FORMULARIO (DECLARACION EN PHP) ---------------------------------------------------------------------------------
-
-    $BANCO = $FECHA_VEN = $COD_VER = ""; 
-    $NUM_TARJETA = 0;
-
-// FUNCIONES DE FILTRADO E INGRESO DE DATOS --------------------------------------------------------------------------------------
-
-    function Filtrado($Datos) {
-
-        $Datos = trim($Datos); // Elimina espacios antes y después de los datos
-        $Datos = stripslashes($Datos); // Elimina backslashes \
-        $Datos = htmlspecialchars($Datos); // Traduce caracteres especiales en entidades HTML
-        return $Datos;
-    }
-
-    if (isset($_POST["submit"]) && $_SERVER["REQUEST_METHOD"] == "POST") {
-
-        $NUM_TARJETA = Filtrado($_POST["NumTarjeta"]);
-        $BANCO = Filtrado($_POST["Banco"]);
-        $FECHA_VEN = Filtrado($_POST["FechaVen"]);
-        $COD_VER = Filtrado($_POST["CodVer"]);
-    }
-
-?>
